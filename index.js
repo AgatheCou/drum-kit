@@ -14,7 +14,7 @@ function buttonanimation(e){
     document.querySelector("."+e).classList.add("pressed");
     setTimeout(function(){
         document.querySelector("."+e).classList.remove("pressed");
-    }, 0.5);
+    }, 150);
 }
 
 
